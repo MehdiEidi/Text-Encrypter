@@ -1,0 +1,19 @@
+{
+  "name": "text-encryptor",
+  "version": "1.0.0",
+  "description": "A basic app for encrypting and decrypting a plain text based on a number as a key",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon src/app.js -e js,hbs"
+  },
+  "author": "Mehdi Eidi (mehdiadq@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  }
+}
