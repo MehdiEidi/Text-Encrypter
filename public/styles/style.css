@@ -97,6 +97,7 @@ li {
   outline: none;
   background: rgb(255, 255, 255);
   font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #main-section input {
@@ -120,6 +121,7 @@ li {
   color: #43853d;
   border: solid 1px #43853d;
   border-radius: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #main-footer {
