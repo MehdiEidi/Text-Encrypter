@@ -20,6 +20,17 @@
       <li><a href="/help">Help</a></li>
     </nav>
   </header>
+
+  <section id="main-section" class="container">
+    <form action="/" method="POST">
+      <textarea class="text" placeholder="Your Text Goes Here" name="text" required></textarea>
+      <button class="btn margin-right-small encButton" name="encrypt" value="true">Encrypt</button>
+      <button class="btn margin-right-medium decButton" name="decrypt" value="true">Decrypt</button>
+      <label>Key: </label>
+      <input type="number" name="key" required>
+      <textarea class="result" placeholder="Result" readonly="true">{{result}}</textarea>
+    </form>
+  </section>
   
 </body>
 </html>
