@@ -121,3 +121,18 @@ li {
   border: solid 1px #43853d;
   border-radius: 0;
 }
+
+#main-footer {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+#main-footer h2 {
+  font-weight: lighter;
+}
+
+#main-footer span {
+  color: #43853d;
+}
